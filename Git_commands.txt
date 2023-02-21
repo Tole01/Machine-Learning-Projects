@@ -1,0 +1,15 @@
+GIT INIT
+
+echo "# Machine-Learning-Projects" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:Tole01/Machine-Learning-Projects.git
+git push -u origin main
+
+PUSH EXISTING REPOSITORY
+
+git remote add origin git@github.com:Tole01/Machine-Learning-Projects.git
+git branch -M main
+git push -u origin main
